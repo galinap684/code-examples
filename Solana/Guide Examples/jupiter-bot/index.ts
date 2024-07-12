@@ -1,6 +1,7 @@
 import { LAMPORTS_PER_SOL, clusterApiUrl } from "@solana/web3.js";
 import { ArbBot, SwapToken } from './bot';
 import dotenv from "dotenv";
+import { ALGORAND_MIN_TX_FEE } from "algosdk";
 
 dotenv.config({
     path: ".env",
